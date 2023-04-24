@@ -1,3 +1,11 @@
+asusctl (4.6.0-99pika1.lunar) lunar; urgency=low
+
+  * New Upstream Release
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Sat, 01 Oct 2022 14:50:00 +0200
+
+
+
 asusctl (4.6.0-rc1-99pika1) kinetic; urgency=low
 
   * New Upstream Release
