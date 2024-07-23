@@ -24,7 +24,7 @@ cd ./asusctl
 apt-get build-dep ./ -y
 
 # Build package
-LOGNAME=root dh_make --createorig -y -l -p asusctl_"$VERSION" || echo "dh-make didn't go clean"
+LOGNAME=root dh_make --createorig -y -l -p asusctl_"$VERSION" || echo "dh-make: Ignoring Last Error"
 dpkg-buildpackage --no-sign
 
 # Move the debs to output
