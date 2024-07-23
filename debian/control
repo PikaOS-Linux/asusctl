@@ -8,12 +8,12 @@ Homepage: https://gitlab.com/asus-linux/asusctl
 Package: asusctl
 Section: misc
 Architecture: amd64
-Depends: ${misc:Depends}, supergfxctl
+Depends: ${misc:Depends}, ${shlibs:Depends}, supergfxctl
 Description: Control fan speeds, LEDs, graphics modes, and charge levels for ASUS notebooks
 
 Package: rog-control-center
 Section: misc
 Architecture: amd64
-Depends: ${misc:Depends}, asusctl, libappindicator3-1
+Depends: ${misc:Depends}, ${shlibs:Depends}, asusctl, libappindicator3-1
 Description: A one-stop-shop GUI tool for asusd/asusctl. It aims to provide most controls, a notification service, and ability to run in the background
 Provides: rog-gui
